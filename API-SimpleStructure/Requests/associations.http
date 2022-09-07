@@ -1,0 +1,18 @@
+@Host = https://localhost:7000
+
+### LOGIN
+GET  {{Host}}/Association/1
+Content-Type: application/json
+
+
+
+### REGISTER 
+
+POST {{Host}}/Association
+Content-Type: application/json
+
+{
+    "Id" : "1",
+    "Name" : "Kcw-KcFc"
+}
+
